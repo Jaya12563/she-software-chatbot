@@ -27,6 +27,7 @@ const ChatWindow = () => {
         content: "👋 Hello! Welcome to She Software Solutions!\n\nI'm your AI assistant. I can help you with:\n• Company information\n• Our services\n• Internship opportunities\n• Contact details\n\nHow can I help you today?",
       }]);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen]);
 
   useEffect(() => {
