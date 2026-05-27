@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:8080";
+const BACKEND_URL = "https://she-software-chatbot.onrender.com";
 
 export const sendMessageToAI = async (message, history = []) => {
   try {
